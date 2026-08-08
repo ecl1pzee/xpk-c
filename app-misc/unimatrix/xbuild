@@ -1,0 +1,21 @@
+[info]
+homepage = "https://github.com/will8211/unimatrix"
+maintainer = "will8211"
+name = "unimatrix"
+version = "0.1.0"
+desc = "Python script to simulate the display from 'The Matrix' in terminal"
+license = "GPL-3.0"
+deps = []
+
+[pkg]
+src-url = "https://github.com/will8211/unimatrix/archive/refs/heads/master.tar.gz"
+sha256 = "9c79784b953afda300828ee5266720b2a15a623891a641ec36f9833a8fafb53a"
+strip = "1"
+
+pre-hooks = [
+  "printf 'all:\n\t@true\ninstall:\n\tmkdir -p $(DESTDIR)/usr/local/bin\n\tinstall -m755 unimatrix.py $(DESTDIR)/usr/local/bin/unimatrix\n' > Makefile"
+]
+
+[build]
+build-sys = "make"
+post-hooks = []

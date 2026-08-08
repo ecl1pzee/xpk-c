@@ -3,7 +3,7 @@ required-signatures = 1
 allow-helpers = true
 
 [maintainers.aurelius] 
-fingerprint = "002ba3cf19ea071b1b2a757da583141ba2498445a76eb3b9c7b876a6562e17df"
-added = "21/7/2026"
+fingerprint = "fc08cff3abe91e9aeb3676904c6a2955dbbbcae0ada5e2267f59b04c2fcb1c8a"
+added = "8/8/2026"
 active = true
 revoked = false
