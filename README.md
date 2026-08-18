@@ -3,6 +3,9 @@ _xpk-c_
 
 The official core repository for xpk.
 
+NOTES:
+while this is going to be the offical core repo for xpk, (probably) right now its purely for testing out xpk. 
+
 Packages in this repository considered the highest trust packages in the ecosystem.
 Before a package may be added or updated, every active xpk maintainer must:
 - review the change 
